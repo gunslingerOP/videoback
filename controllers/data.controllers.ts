@@ -13,7 +13,7 @@ const b2 = new B2({
   applicationKey: secretAccessKey, // or masterApplicationKey
 });
 const qencodeApiClient = new qencode({
-  key: "60317d6a135ad",
+  key: config.qencodeKey,
   endPoint: `https://api-qa.qencode.com`,
 });
 

@@ -21,5 +21,5 @@ export default config = {
   wasabiSecret:process.env.BLACK_SECRET,
   wasabiAccess:process.env.BLACK_ACCESS,
 
-
+  qencodeKey:process.env.QENCODE_KEY
 };
