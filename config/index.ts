@@ -16,5 +16,10 @@ export default config = {
 
 
   googleId:process.env.GOOGLE_CLIENT_ID,
-  googleSecret:process.env.GOOGLE_SECRET
+  googleSecret:process.env.GOOGLE_SECRET,
+
+  wasabiSecret:process.env.BLACK_SECRET,
+  wasabiAccess:process.env.BLACK_ACCESS,
+
+
 };
